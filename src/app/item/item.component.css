@@ -18,9 +18,25 @@
 }
 
 .btn-red {
-  background: red;
+  background: #f57f7f;
+  border-radius: 35px;
 }
 
 .btn-red:hover {
-  background: darkred;
+  background: rgba(245, 127, 127, 0.2)
+}
+.round-button {
+    display:block;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background:rgba(245, 127, 127, 0.2);
+    font-size:15px;
+    margin: auto 10px;
+}
+.round-button:hover {
+    background: rgba(245, 127, 127, 1);
 }
