@@ -5,7 +5,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   template: `
       <input  class="todo-input" [value]="title" 
              (keyup.enter)="changeTitle(inputElement)"#inputElement>
-      <button class="btn"  (click)="changeTitle(inputElement)">Save</button>      
+      <button class="btn btn-add"  (click)="changeTitle(inputElement)">Add</button>      
   `,
   styleUrls: ['./input.component.css']
 })
